@@ -18,7 +18,7 @@
     <sprite>sprites\spr_bullet</sprite>
     <sprites name="Joystick">
       <sprite>sprites\spr_shield</sprite>
-      <sprite>sprites\spr_defend</sprite>
+      <sprite>sprites\spr_dash</sprite>
       <sprite>sprites\spr_lever</sprite>
       <sprite>sprites\spr_attack</sprite>
     </sprites>
@@ -36,6 +36,7 @@
       <sprite>sprites\spr_female_right</sprite>
       <sprite>sprites\spr_female_up</sprite>
     </sprites>
+    <sprite>sprites\spr_trap</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_1</background>
@@ -44,12 +45,13 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_move_state.gml</script>
+    <script>scripts\scr_dash_state.gml</script>
     <script>scripts\scr_attack_state.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_attack</object>
     <object>objects\obj_bullet</object>
-    <object>objects\obj_defend</object>
+    <object>objects\obj_dash</object>
     <object>objects\obj_lever</object>
     <object>objects\obj_player</object>
     <object>objects\obj_shield</object>
@@ -62,11 +64,13 @@
     <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_book</object>
     <object>objects\obj_view</object>
+    <object>objects\obj_trap</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
     <room>rooms\level_2</room>
     <room>rooms\level_3</room>
+    <room>rooms\level_4</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
