@@ -71,6 +71,7 @@
     <room>rooms\level_2</room>
     <room>rooms\level_3</room>
     <room>rooms\level_4</room>
+    <room>rooms\level_5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
