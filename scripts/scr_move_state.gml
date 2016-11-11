@@ -2,6 +2,9 @@
 d = global.dir 
 if (instance_exists(obj_player)){
     if (act = true){
+    
+        //state = scr_attack_state
+        //alarm[0] = room_speed * 1.5
         // it moves to the pointing direction of the joystick 
         // east
         if (d > 0 and d < 20){

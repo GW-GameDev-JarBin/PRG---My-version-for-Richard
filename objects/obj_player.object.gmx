@@ -67,6 +67,11 @@ script_execute(state);
 if (hp &lt;=0){
     instance_destroy();
 }
+
+if (floor(image_index) == 4 and sprite_index == spr_female_attack_right)
+{
+    obj_player.sprite_index = spr_female_right;
+}
 </string>
           </argument>
         </arguments>
@@ -89,7 +94,12 @@ if (hp &lt;=0){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//room_restart();
+            <string>///colide
+//room_restart()
+/*instance_destroy();
+room_goto(level_4);
+instance_create(420,480, obj_player);
+obj_player.visible = true;*/
 </string>
           </argument>
         </arguments>
@@ -117,7 +127,7 @@ audio_play_sound(snd_tada, 1, false)
     with(other){
         instance_destroy();
     }
-instance_create(1150, 610, obj_dash)
+instance_create(950, 608, obj_dash)
 obj_dash.visible = true;
 </string>
           </argument>
@@ -149,7 +159,7 @@ audio_play_sound(snd_ding, 1, false)
     with(other){
         instance_destroy();
     }
-instance_create(928,576,obj_attack)
+instance_create(1248,448, obj_attack)
 
 
 </string>
@@ -186,36 +196,6 @@ if (room_exists(other.new_room)){
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="7">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>
-
-
-if (state == scr_attack_state){
-    state = scr_move_state;
-    script_execute(state);
-}
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
@@ -240,28 +220,6 @@ phy_fixed_rotation = true;
         </arguments>
       </action>
     </event>
-    <event eventtype="7" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>112</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_wrap</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>4</kind>
-            <string>2</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
@@ -275,9 +233,9 @@ phy_fixed_rotation = true;
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>112,32</point>
-    <point>176,32</point>
-    <point>176,224</point>
-    <point>112,224</point>
+    <point>64,32</point>
+    <point>144,32</point>
+    <point>144,216</point>
+    <point>64,216</point>
   </PhysicsShapePoints>
 </object>

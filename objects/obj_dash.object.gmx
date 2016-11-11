@@ -26,8 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>//visible = false;
-
-state = scr_move_state;
 </string>
           </argument>
         </arguments>
@@ -54,11 +52,12 @@ state = scr_move_state;
 //x = view_xview[0] + 356 
 //y = view_yview[0] + 185
 
+x = view_xview[0] + 1120
 
 //x = view_xview[0] + 440
 //y = view_yview[0] + 264
 
-x = view_xview[0] + 1200
+
 //script_execute(state);
 </string>
           </argument>
@@ -89,9 +88,10 @@ x = view_xview[0] + 1200
 
 //shield = instance_create(player_x - 60, player_y - 60, obj_shield);
 
-state = scr_dash_state;
+obj_player.state = scr_dash_state;
 
-script_execute(state);
+script_execute(obj_player.state);
+
 </string>
           </argument>
         </arguments>
@@ -114,7 +114,7 @@ script_execute(state);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>obj_player.state = scr_move_state;
 /*
 if (state == scr_dash_state){
     state = scr_move_state;

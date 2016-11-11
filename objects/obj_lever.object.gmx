@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>// establish variables
+ 
 image_speed = 0
 
 visible = false
@@ -70,7 +71,7 @@ if(instance_exists(obj_player)){
         image_angle = global.dir 
         
         obj_player.act = true
-        x = view_xview[0] + 140
+        x = view_xview[0] + 140;
         //y = view_yview[0] + 240
     }
     
