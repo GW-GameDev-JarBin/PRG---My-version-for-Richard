@@ -6,7 +6,10 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_tada</sound>
+    <sound>sound\snd_sword_swing</sound>
+    <sound>sound\snd_dash_sound</sound>
     <sound>sound\snd_ding</sound>
+    <sound>sound\snd_fairy</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_block_wall</sprite>
@@ -18,8 +21,8 @@
     <sprites name="Joystick">
       <sprite>sprites\spr_shield</sprite>
       <sprite>sprites\spr_dash</sprite>
-      <sprite>sprites\spr_lever</sprite>
       <sprite>sprites\spr_attack</sprite>
+      <sprite>sprites\spr_lever</sprite>
     </sprites>
     <sprite>sprites\spr_damge</sprite>
     <sprites name="NewPlayerSprite">
@@ -42,6 +45,7 @@
     <background>background\bg_2</background>
     <background>background\bg_1</background>
     <background>background\bg_4</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -49,6 +53,10 @@
     <script>scripts\scr_dash_state.gml</script>
     <script>scripts\scr_attack_state.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_game_over</font>
+    <font>fonts\fnt_small</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_attack</object>
     <object>objects\obj_bullet</object>
@@ -65,8 +73,8 @@
     <object>objects\obj_book</object>
     <object>objects\obj_view</object>
     <object>objects\obj_trap</object>
-    <object>objects\object18</object>
     <object>objects\obj_monster</object>
+    <object>objects\object21</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>

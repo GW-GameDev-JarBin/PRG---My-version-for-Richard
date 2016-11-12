@@ -50,6 +50,10 @@
             <string>obj_lever.visible = true;
 obj_player.visible = true;
 instance_destroy()
+
+audio_play_sound(snd_fairy, 1, true);
+
+
 </string>
           </argument>
         </arguments>

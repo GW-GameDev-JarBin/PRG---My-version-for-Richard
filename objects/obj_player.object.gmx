@@ -77,6 +77,29 @@ if (floor(image_index) == 4 and sprite_index == spr_female_attack_right)
         </arguments>
       </action>
     </event>
+    <event eventtype="4" ename="obj_monster">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="4" ename="obj_trap">
       <action>
         <libid>1</libid>
@@ -97,7 +120,7 @@ if (floor(image_index) == 4 and sprite_index == spr_female_attack_right)
             <string>///colide
 //room_restart()
 /*instance_destroy();
-room_goto(level_4);
+room_restart();
 instance_create(420,480, obj_player);
 obj_player.visible = true;*/
 </string>
@@ -123,12 +146,11 @@ obj_player.visible = true;*/
           <argument>
             <kind>1</kind>
             <string>// play the sound
-audio_play_sound(snd_tada, 1, false)
+audio_play_sound(snd_tada, 10, false)
     with(other){
         instance_destroy();
     }
-instance_create(950, 608, obj_dash)
-obj_dash.visible = true;
+instance_create(view_xview[0]+950, view_yview[0]+608, obj_dash)
 </string>
           </argument>
         </arguments>
@@ -155,11 +177,11 @@ obj_dash.visible = true;
 
 
 // play the sound
-audio_play_sound(snd_ding, 1, false)
+audio_play_sound(snd_ding, 10, false)
     with(other){
         instance_destroy();
     }
-instance_create(1248,448, obj_attack)
+instance_create(view_xview[0]+1248,view_yview[0]+448, obj_attack)
 
 
 </string>
@@ -215,6 +237,12 @@ if (room_exists(other.new_room)){
             <kind>1</kind>
             <string>///Room start event
 phy_fixed_rotation = true;
+
+/*
+if (room_last){
+    instance_create(0,0, obj_win);
+}
+*/
 </string>
           </argument>
         </arguments>

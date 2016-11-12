@@ -7,29 +7,29 @@ if (instance_exists(obj_player)){
         //alarm[0] = room_speed * 1.5
         // it moves to the pointing direction of the joystick 
         // east
-        if (d > 0 and d < 20){
+        if (d > 0 and d <= 45)or(d > 315 and d <= 360){
             right = true
             sprite_index = spr_female_right
-            phy_position_x += 20;
+            obj_player.phy_position_x += 10;
         }   
         // north 
         //else if (d > 90 and d < 135)
-        else if (d > 80 and d < 100){
+        else if (d > 45 and d <= 135){
             up = true
             sprite_index = spr_female_up
-            phy_position_y -= 20;
+            obj_player.phy_position_y -= 10;
         }
         // west
-        else if (d > 170 and d < 190){
+        else if (d > 135 and d <= 225){
             left = true;
             sprite_index = spr_female_left
-            phy_position_x -= 20;
+            obj_player.phy_position_x -= 10;
         }
         // south 
-        else if (d > 270 and d < 290){
+        else if (d > 225 and d <= 315){
             down = true;
             sprite_index = spr_female_down
-            phy_position_y += 20;
+            obj_player.phy_position_y += 10;
         }  
     }
 }

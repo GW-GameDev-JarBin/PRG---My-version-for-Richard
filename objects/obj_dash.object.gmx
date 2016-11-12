@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -89,8 +89,8 @@ x = view_xview[0] + 1120
 //shield = instance_create(player_x - 60, player_y - 60, obj_shield);
 
 obj_player.state = scr_dash_state;
-
 script_execute(obj_player.state);
+audio_play_sound(snd_dash_sound, 10, false);
 
 </string>
           </argument>

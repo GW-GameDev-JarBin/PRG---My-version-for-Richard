@@ -10,14 +10,15 @@ if (instance_exists(obj_player)){
     obj_player.phy_position_x += 220;
     //obj_player.phy_position_y += 5;
     
-    obj_lever.x = view_xview[0] + 100;
+   
+    //obj_lever.x = view_xview[0] + 180;
 
-    obj_player.state = scr_move_state;
+    
     //var dash = instance_create(x, y, obj_dash_effect);
     
-   /* if (instance_exists(obj_trap)){
-        trap_position_x = obj_trap.x;
-        trap_position_y = obj_trap.y;
+   /*if (instance_exists(obj_trap)){
+        trap_position_x = obj_trap.phy_position_x;
+        trap_position_y = obj_trap.phy_position_y;
         
         
         safe_position_x = obj_trap.phy_position_x + 50
@@ -27,7 +28,7 @@ if (instance_exists(obj_player)){
             room_restart();
         }
     }*/
-    
+   obj_player.state = scr_move_state; 
    
 
 }
