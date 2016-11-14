@@ -4,7 +4,7 @@ if (instance_exists(obj_player)){
     player_x = obj_player.phy_position_x;
     player_y = obj_player.phy_position_y;
     
-    //Move
+    // dash
     
     
     if (obj_player.sprite_index == spr_female_right)
@@ -24,26 +24,24 @@ if (instance_exists(obj_player)){
         obj_player.phy_position_y += 220;
     }   
     
-    //obj_player.phy_position_y += 5;
-    
-   
-    //obj_lever.x = view_xview[0] + 180;
+
 
     
     //var dash = instance_create(x, y, obj_dash_effect);
     
-   /*if (instance_exists(obj_trap)){
+   if (instance_exists(obj_trap)){
         trap_position_x = obj_trap.phy_position_x;
         trap_position_y = obj_trap.phy_position_y;
         
         
-        safe_position_x = obj_trap.phy_position_x + 50
+        safe_position_x1 = obj_trap.phy_position_x - 30
+        safe_position_x2 = obj_trap.phy_position_x + 30
         //safe_position_y = obj_trap.y + 50
-        if (obj_player.phy_position_x < safe_position_x)
+        if (player_x > safe_position_x1 and player_x < safe_position_x2)
         {
             room_restart();
         }
-    }*/
+    }
    obj_player.state = scr_move_state; 
    
 
