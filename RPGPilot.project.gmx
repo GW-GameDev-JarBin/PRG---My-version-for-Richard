@@ -52,6 +52,15 @@
     <script>scripts\scr_move_state.gml</script>
     <script>scripts\scr_dash_state.gml</script>
     <script>scripts\scr_attack_state.gml</script>
+    <scripts name="gwgamedev_multitouch">
+      <script>scripts\scr_multitouch_create.gml</script>
+      <script>scripts\scr_multitouch_step.gml</script>
+    </scripts>
+    <scripts name="gwgamedev_multitouch_customizable">
+      <script>scripts\scr_multitouch_callback_create.gml</script>
+      <script>scripts\scr_multitouch_callback_pressed.gml</script>
+      <script>scripts\scr_multitouch_callback_released.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_game_over</font>
@@ -59,7 +68,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_attack</object>
-    <object>objects\obj_bullet</object>
     <object>objects\obj_dash</object>
     <object>objects\obj_player</object>
     <object>objects\obj_lever</object>
