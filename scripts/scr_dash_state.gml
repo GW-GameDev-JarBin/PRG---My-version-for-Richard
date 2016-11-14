@@ -7,7 +7,23 @@ if (instance_exists(obj_player)){
     //Move
     
     
-    obj_player.phy_position_x += 220;
+    if (obj_player.sprite_index == spr_female_right)
+    {
+        obj_player.phy_position_x += 220;
+    }   
+    if (obj_player.sprite_index == spr_female_left)
+    {
+        obj_player.phy_position_x -= 220;
+    }   
+    if (obj_player.sprite_index == spr_female_up)
+    {
+        obj_player.phy_position_y -= 220;
+    }   
+    if (obj_player.sprite_index == spr_female_down)
+    {
+        obj_player.phy_position_y += 220;
+    }   
+    
     //obj_player.phy_position_y += 5;
     
    
