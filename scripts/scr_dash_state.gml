@@ -37,9 +37,17 @@ if (instance_exists(obj_player)){
         safe_position_x1 = obj_trap.phy_position_x - 30
         safe_position_x2 = obj_trap.phy_position_x + 30
         //safe_position_y = obj_trap.y + 50
-        if (player_x > safe_position_x1 and player_x < safe_position_x2)
+        if (player_x < safe_position_x2 and player_x > safe_position_x1)
         {
             room_restart();
+            with (obj_player)
+            {
+                instance_destroy();
+            }
+            instance_create(420, 480, obj_player);
+            obj_player.visible = true;
+            //player_x = 420;
+            //player_y = 480;
         }
     }
    obj_player.state = scr_move_state; 
