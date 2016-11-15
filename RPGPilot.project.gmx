@@ -83,6 +83,7 @@
     <object>objects\obj_trap</object>
     <object>objects\obj_monster</object>
     <object>objects\object21</object>
+    <object>objects\obj_controller_level_1</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
