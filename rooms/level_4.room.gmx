@@ -51,7 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_lever" x="64" y="672" name="inst_8BB46DFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lever" x="128" y="640" name="inst_8BB46DFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="0" y="0" name="inst_39A66ADB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="96" y="0" name="inst_F52BC59F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_1" x="2432" y="320" name="inst_D8DCC0C7" locked="0" code="new_room = level_5;&#xA;new_x = 420;&#xA;new_y = 480;" scaleX="1.62025320529938" scaleY="2.59999990463257" colour="4294967295" rotation="0"/>
@@ -258,7 +258,7 @@
     <instance objName="obj_block_wall" x="32" y="512" name="inst_8061CD68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="192" y="416" name="inst_EEB34E96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="192" y="448" name="inst_9313BD64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_wall" x="160" y="480" name="inst_A7F44435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="544" name="inst_A7F44435" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="256" y="416" name="inst_0A430EA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="224" y="416" name="inst_1FC94DA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="288" y="384" name="inst_C122AF06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -358,7 +358,7 @@
     <instance objName="obj_block_wall" x="1952" y="288" name="inst_C7460CE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2144" y="288" name="inst_FB2E73DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="1920" y="256" name="inst_E326AD59" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_block_wall" x="2176" y="256" name="inst_B4B58BBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2144" y="256" name="inst_B4B58BBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2112" y="288" name="inst_D2EB2023" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2080" y="288" name="inst_C9EFB0D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2048" y="288" name="inst_590EC9B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -429,6 +429,106 @@
     <instance objName="obj_block_wall" x="2400" y="224" name="inst_8DFC9F90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2368" y="224" name="inst_A43CBCF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="2432" y="256" name="inst_CBD0E0F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="544" name="inst_3CA05827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="544" name="inst_9D1C675E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="544" name="inst_EF087457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="576" name="inst_6D5E64CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="576" name="inst_15984520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="576" name="inst_3C8439A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="576" name="inst_E6B611C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="576" name="inst_761D6B3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="608" name="inst_B9D63344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="608" name="inst_501D9E99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="608" name="inst_9D2C398D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="608" name="inst_1B499F97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="608" name="inst_51A9BAB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="640" name="inst_A15B67C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="672" name="inst_8ADEE8D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="640" name="inst_88BB06A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="672" name="inst_3B749FEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="640" name="inst_E6723553" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="672" name="inst_8222D901" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="640" name="inst_86148311" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="672" name="inst_013C178C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="640" name="inst_B9964D55" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="672" name="inst_1DCD4150" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="608" name="inst_7779A461" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="288" name="inst_6067AD86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="192" name="inst_F1382BBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="160" name="inst_91076E8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="192" name="inst_0EC5A01D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="352" name="inst_3A4637F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="384" name="inst_AB6533C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="416" name="inst_E224E803" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="448" name="inst_B1D1E532" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="480" name="inst_44203D42" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="480" name="inst_2EA3DFDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="480" name="inst_CE65AFAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="480" name="inst_DE3337B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="448" name="inst_A5059585" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="448" name="inst_8EC6FF5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="448" name="inst_B63126AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="448" name="inst_C290C6C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="416" name="inst_319D99C4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="416" name="inst_69376F24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="416" name="inst_C47B5588" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="416" name="inst_688B30B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="384" name="inst_54227B40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="384" name="inst_EB651BE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="384" name="inst_09FCEEB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="384" name="inst_153D8E21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="224" y="384" name="inst_238686BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="256" y="384" name="inst_1393CF2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="256" y="352" name="inst_9C9223E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="224" y="352" name="inst_7D4E454B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="352" name="inst_D823B6A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="352" name="inst_18CC2BC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="352" name="inst_A3E6BCA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="352" name="inst_22634532" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="384" name="inst_6E5F7EBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="352" name="inst_D7050039" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="352" name="inst_9AE6B01E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="320" name="inst_146AC76E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="320" name="inst_1F5F3D54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="320" name="inst_DC4EB792" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="320" name="inst_1F08A992" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="320" name="inst_A987E91D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="320" name="inst_854DDED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="224" y="320" name="inst_EBA80BF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="224" y="288" name="inst_F13C3B7B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="288" name="inst_AD903C31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="256" name="inst_98B606DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="224" y="256" name="inst_E197AC46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="224" y="224" name="inst_F968ECE7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="192" y="224" name="inst_A2CE8010" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="224" name="inst_9D6C7314" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="160" y="256" name="inst_C0001FF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="256" name="inst_B7D77C07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="288" name="inst_1929BC6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="288" name="inst_5D6E1A2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="288" name="inst_7DD9B19E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="256" name="inst_29DA4FBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="256" name="inst_A04805FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="256" name="inst_2F3E887F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="288" name="inst_8B470F8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="224" name="inst_2A5595B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="96" y="224" name="inst_4E519CA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="64" y="224" name="inst_85048BFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="128" y="224" name="inst_0D348449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="32" y="32" name="inst_90F7824F" locked="0" code="" scaleX="7" scaleY="6" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="256" y="32" name="inst_0B4E8630" locked="0" code="" scaleX="14" scaleY="4" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="704" y="32" name="inst_2EA429F8" locked="0" code="" scaleX="26" scaleY="4.12903213500977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="1536" y="32" name="inst_300E0B99" locked="0" code="" scaleX="20" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="1504" y="160" name="inst_ED000D54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="1504" y="192" name="inst_78139F7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2176" y="32" name="inst_AC4213B2" locked="0" code="" scaleX="15" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2176" y="256" name="inst_AAAE9FA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2080" y="256" name="inst_BC2A1290" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2112" y="256" name="inst_C3D0FD08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2048" y="256" name="inst_07AA766C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="2016" y="256" name="inst_D496F9BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="1984" y="256" name="inst_0552A5E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_block_wall" x="1952" y="256" name="inst_3964FB31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
