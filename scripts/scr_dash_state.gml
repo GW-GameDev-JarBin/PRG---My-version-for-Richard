@@ -1,8 +1,8 @@
 
 d = global.dir
 if (instance_exists(obj_player)){
-    player_x = obj_player.phy_position_x;
-    player_y = obj_player.phy_position_y;
+    //player_x = obj_player.phy_position_x;
+    //player_y = obj_player.phy_position_y;
     
     // dash
     
@@ -38,13 +38,17 @@ if (instance_exists(obj_player)){
         trap_position_y = obj_trap.phy_position_y;
         
         
-        safe_position_x1 = obj_trap.phy_position_x - 30
-        safe_position_x2 = obj_trap.phy_position_x + 30
+        safe_position_x1 = obj_trap.phy_position_x - 45;
+        safe_position_x2 = obj_trap.phy_position_x + 45;
         //safe_position_y = obj_trap.y + 50
-        if (player_x < safe_position_x2 and player_x > safe_position_x1)
+        if (obj_player.phy_position_x < safe_position_x2 and obj_player.phy_position_x > safe_position_x1)
         {
             room_restart();
             with (obj_player)
+            {
+                instance_destroy();
+            }
+            with (obj_dash)
             {
                 instance_destroy();
             }
