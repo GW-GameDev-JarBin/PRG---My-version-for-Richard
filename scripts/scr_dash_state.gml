@@ -10,7 +10,7 @@ if (instance_exists(obj_player)){
     if (obj_player.sprite_index == spr_female_right and !position_meeting(
     obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
     {
-        obj_player.phy_position_x += 220;
+        obj_player.phy_position_x += 240;
     }   
     if (obj_player.sprite_index == spr_female_left and !position_meeting(
     obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
@@ -21,7 +21,7 @@ if (instance_exists(obj_player)){
         }
         else
         {
-            obj_player.phy_position_x -= 220;
+            obj_player.phy_position_x -= 240;
         }
     }   
     if (obj_player.sprite_index == spr_female_up and !position_meeting(

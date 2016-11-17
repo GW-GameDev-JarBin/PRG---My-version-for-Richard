@@ -27,6 +27,9 @@
             <kind>1</kind>
             <string>// create the objects needed in the first level
 instance_create(750, 350, obj_start);
+if(!instance_exists(obj_bg_music)){
+    instance_create(0,0,obj_bg_music);
+}
 </string>
           </argument>
         </arguments>

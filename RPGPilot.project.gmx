@@ -41,6 +41,7 @@
     <sprite>sprites\spr_training</sprite>
     <sprite>sprites\spr_monster</sprite>
     <sprite>sprites\spr_map</sprite>
+    <sprite>sprites\spr_pause</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_2</background>
@@ -103,6 +104,8 @@
       <object>objects\obj_controller_level_5</object>
       <object>objects\obj_controller_level_6</object>
     </objects>
+    <object>objects\obj_pause</object>
+    <object>objects\obj_bg_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_chooser</room>

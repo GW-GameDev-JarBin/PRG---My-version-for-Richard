@@ -47,11 +47,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_lever.visible = true;
+            <string>//audio_play_sound(snd_fairy, 1, true);
+obj_lever.visible = true;
 obj_player.visible = true;
+obj_pause.visible = true;
 instance_destroy()
-
-audio_play_sound(snd_fairy, 1, true);
 
 
 </string>
