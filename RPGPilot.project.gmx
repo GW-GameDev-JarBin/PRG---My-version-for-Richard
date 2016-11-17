@@ -40,12 +40,14 @@
     <sprite>sprites\spr_trap</sprite>
     <sprite>sprites\spr_training</sprite>
     <sprite>sprites\spr_monster</sprite>
+    <sprite>sprites\spr_map</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_2</background>
     <background>background\bg_1</background>
     <background>background\bg_4</background>
     <background>background\background4</background>
+    <background>background\bg_levels</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_monster_1</path>
@@ -85,10 +87,25 @@
     <object>objects\obj_trap</object>
     <object>objects\obj_monster</object>
     <object>objects\obj_controller_win</object>
-    <object>objects\obj_controller_level_1</object>
-    <object>objects\obj_controller_level_2</object>
+    <objects name="level_chooser_buttons">
+      <object>objects\obj_maplvl1</object>
+      <object>objects\obj_maplvl2</object>
+      <object>objects\obj_maplvl3</object>
+      <object>objects\obj_maplvl4</object>
+      <object>objects\obj_maplvl5</object>
+      <object>objects\obj_maplvl6</object>
+    </objects>
+    <objects name="room_controllers">
+      <object>objects\obj_controller_level_1</object>
+      <object>objects\obj_controller_level_2</object>
+      <object>objects\obj_controller_level_3</object>
+      <object>objects\obj_controller_level_4</object>
+      <object>objects\obj_controller_level_5</object>
+      <object>objects\obj_controller_level_6</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_chooser</room>
     <room>rooms\level_1</room>
     <room>rooms\level_2</room>
     <room>rooms\level_3</room>
