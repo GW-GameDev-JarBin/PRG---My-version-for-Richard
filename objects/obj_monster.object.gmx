@@ -27,6 +27,8 @@
             <kind>1</kind>
             <string>event_inherited();
 image_speed = 0.5;
+
+path_start(pth_monster_1, 2, path_action_reverse, false);
 </string>
           </argument>
         </arguments>

@@ -134,7 +134,7 @@ if (floor(image_index) == 4 and sprite_index == spr_female_attack_down)
             <kind>1</kind>
             <string>///colide
 
-
+/*
  room_restart();
  with (obj_player)
  {
@@ -146,6 +146,7 @@ if (floor(image_index) == 4 and sprite_index == spr_female_attack_down)
  }
  instance_create(420, 480, obj_player);
  obj_player.visible = true;
+ */
 </string>
           </argument>
         </arguments>

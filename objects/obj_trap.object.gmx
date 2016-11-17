@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_trap</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -20,9 +20,9 @@
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>16,16</point>
-    <point>80,16</point>
-    <point>80,80</point>
-    <point>16,80</point>
+    <point>32,16</point>
+    <point>64,16</point>
+    <point>64,80</point>
+    <point>32,80</point>
   </PhysicsShapePoints>
 </object>

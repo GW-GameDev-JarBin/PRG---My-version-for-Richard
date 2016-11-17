@@ -47,7 +47,9 @@
     <background>background\bg_4</background>
     <background>background\background4</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_monster_1</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_move_state.gml</script>
     <script>scripts\scr_dash_state.gml</script>
@@ -82,8 +84,9 @@
     <object>objects\obj_view</object>
     <object>objects\obj_trap</object>
     <object>objects\obj_monster</object>
-    <object>objects\object21</object>
+    <object>objects\obj_controller_win</object>
     <object>objects\obj_controller_level_1</object>
+    <object>objects\obj_controller_level_2</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\level_1</room>
@@ -91,6 +94,7 @@
     <room>rooms\level_3</room>
     <room>rooms\level_4</room>
     <room>rooms\level_5</room>
+    <room>rooms\level_6</room>
     <room>rooms\win</room>
   </rooms>
   <help>
