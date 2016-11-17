@@ -76,10 +76,13 @@ visible = false;
     paused = 1;
     //view_enabled = false;
     instance_deactivate_all(true);
+    sprite_index = spr_resume;
 }else{
     paused = 0;
     //view_enabled = true;
     instance_activate_all();
+    sprite_index = spr_pause;
+    
 }
 </string>
           </argument>

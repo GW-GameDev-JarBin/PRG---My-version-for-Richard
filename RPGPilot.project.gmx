@@ -42,6 +42,7 @@
     <sprite>sprites\spr_monster</sprite>
     <sprite>sprites\spr_map</sprite>
     <sprite>sprites\spr_pause</sprite>
+    <sprite>sprites\spr_resume</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_2</background>
