@@ -25,12 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Initialize the dash effect
-
-obj_player.image_alpha = .8;
-
-
-
+            <string>image_alpha = 0.8;
 </string>
           </argument>
         </arguments>
@@ -53,11 +48,12 @@ obj_player.image_alpha = .8;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// Fade
-
-if (obj_player.image_alpha &gt; 0) {
-    image_alpha -= 0.1;
-}else{
+            <string>if (image_alpha &gt; 0)
+{
+    image_alpha -= 0.3;
+}
+else
+{
     instance_destroy();
 }
 </string>

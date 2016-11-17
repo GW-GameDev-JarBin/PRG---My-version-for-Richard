@@ -68,6 +68,11 @@ if (instance_exists(obj_player)){
     }
    obj_player.state = scr_move_state; 
    
+   var dash = instance_create(obj_player.phy_position_x, obj_player.phy_position_y, obj_dash_effect);
+   
+   //obj_player.sprite_index = obj_player.sprite_index;
+   
+   
 
 }
 
