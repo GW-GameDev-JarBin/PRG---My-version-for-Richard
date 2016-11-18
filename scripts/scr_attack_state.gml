@@ -27,7 +27,7 @@ if (instance_exists(obj_player)){
     player_x = obj_player.x;
     player_y = obj_player.y;
     
-    xx = player_x + 100;
+    xx = player_x;
     yy = player_y;
     
     var damage = instance_create(xx, yy, obj_damage);

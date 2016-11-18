@@ -118,6 +118,7 @@
     <object>objects\obj_pause</object>
     <object>objects\obj_bg_music</object>
     <object>objects\obj_dash_effect</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_chooser</room>
