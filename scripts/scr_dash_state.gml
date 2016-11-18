@@ -7,22 +7,17 @@ if (instance_exists(obj_player)){
     // dash
     
     
-    if (obj_player.sprite_index == spr_female_right and !position_meeting(
-    obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
+    if (obj_player.sprite_index == spr_female_right and !place_meeting(
+    obj_player.phy_position_x + 240, obj_player.phy_position_y, obj_block_wall))
     {
         obj_player.phy_position_x += 240;
     }   
-    if (obj_player.sprite_index == spr_female_left and !position_meeting(
-    obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
+    if (obj_player.sprite_index == spr_female_left and !place_meeting(
+    obj_player.phy_position_x - 240, obj_player.phy_position_y, obj_block_wall))
     {
-        if position_meeting(obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall)
-        {
-            obj_player.phy_position_x = obj_player.phy_position_x
-        }
-        else
-        {
-            obj_player.phy_position_x -= 240;
-        }
+        obj_player.phy_position_x -= 240;
+       
+        
     }   
     if (obj_player.sprite_index == spr_female_up and !position_meeting(
     obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
