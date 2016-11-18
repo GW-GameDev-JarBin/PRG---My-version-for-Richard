@@ -77,11 +77,13 @@ act = false;
           <argument>
             <kind>1</kind>
             <string>//state = scr_move_state;
-obj_player.act = true
-script_execute(scr_attack_state);
-//state = scr_move_state;
 
-audio_play_sound(snd_sword_swing, 10, false);
+if(instance_exists(obj_player)){
+    obj_player.act = true
+    script_execute(scr_attack_state);
+    //state = scr_move_state;
+    audio_play_sound(snd_sword_swing, 10, false);
+}
 </string>
           </argument>
         </arguments>
