@@ -87,11 +87,11 @@ x = view_xview[0] + 1120
 
 
 //shield = instance_create(player_x - 60, player_y - 60, obj_shield);
-
-obj_player.state = scr_dash_state;
-script_execute(obj_player.state);
-audio_play_sound(snd_dash_sound, 10, false);
-
+if(instance_exists(obj_player)){
+    obj_player.state = scr_dash_state;
+    script_execute(obj_player.state);
+    audio_play_sound(snd_dash_sound, 10, false);
+}
 </string>
           </argument>
         </arguments>
@@ -114,7 +114,9 @@ audio_play_sound(snd_dash_sound, 10, false);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_player.state = scr_move_state;
+            <string>if(instance_exists(obj_player)){
+    obj_player.state = scr_move_state;
+}
 /*
 if (state == scr_dash_state){
     state = scr_move_state;
