@@ -37,7 +37,7 @@ left = false
 right = false
 up = false
 down = false
-phy_fixed_rotation = true;
+//phy_fixed_rotation = true;
 
 
 </string>
@@ -289,6 +289,7 @@ if (room_exists(other.new_room)){
             <kind>1</kind>
             <string>///Room start event
 //phy_fixed_rotation = true;
+phy_fixed_rotation = true;
 
 /*
 if (room_last){
